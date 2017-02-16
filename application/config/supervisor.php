@@ -33,7 +33,28 @@ $config['supervisor_servers'] = array(
         'phpcli06.ofertixlinux.corp' => array(
                 'url' => 'http://phpcli06.ofertixlinux.corp/RPC2',
                 'port' => '9001',
-        )
+        ),
+        'diagonal-427-master' => array(
+                'url' => 'http://10.8.0.228/RPC2',
+                'port' => '9001',
+        ),
+        'diagonal-427-slave' => array(
+                'url' => 'http://10.8.0.229/RPC2',
+                'port' => '9001',
+        ),
+        'diagonal-445-master' => array(
+                'url' => 'http://10.8.0.226/RPC2',
+                'port' => '9001',
+        ),
+        'diagonal-445-slave' => array(
+                'url' => 'http://10.8.0.227/RPC2',
+                'port' => '9001',
+        ),
+        'tienda-sant-just' => array(
+                'url' => 'http://192.168.2.178/RPC2',
+                'port' => '9001',
+        ),
+
 );
 
 // Set timeout connecting to remote supervisord RPC2 interface
